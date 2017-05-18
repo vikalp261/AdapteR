@@ -24,6 +24,7 @@ NULL
 #' ResulthtestObject <- binom.test(flv,100,p=0.65,"LT")
 #' expect_equal(ResulthtestObject[10],binom.test(as.R(flv[10]),100,p=0.65,"LT"))
 #' @export
+print("hi")
 setGeneric("binom.test",function(x, n, p = 0.5,
                                 alternative = c("two.sided", "less","greater"),
                                 conf.level = 0.95)
