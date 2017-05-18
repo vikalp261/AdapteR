@@ -1,0 +1,4 @@
+^.*alltests.*\.rda$
+.git
+^.*\.Rproj$
+^\.Rproj\.user$

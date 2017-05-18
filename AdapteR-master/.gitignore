@@ -1,0 +1,8 @@
+.#*
+*#
+alltests*.rda
+.Rd2pdf*
+.Rproj.user
+.Rhistory
+.RData
+*~
